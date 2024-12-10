@@ -1,0 +1,253 @@
+@charset "UTF-8";
+root {
+color-red: #c81f26;
+    color-green: #00b494;
+    color-title: #2a2a32;
+    color-content: #2a2a32;
+    font-title: 'Allura', cursive;
+    font-body: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-content);
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+	position: relative;
+	background-color: #FFF;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+.titulo{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 30px;
+}
+header {
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--color-title);
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: var(--color-red);
+}
+
+#hero {
+    position: relative;
+}
+
+#hero .carousel-item {
+    height: 200px;
+}
+
+#hero .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+#hero .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+#hero h1 {
+    font-family: var(--font-title);
+    font-size: 60px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#hero .btn {
+    background-color: var(--color-red);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#hero .btn:hover {
+    background-color: #a0161e;
+}
+
+
+#gifts {
+    padding: 60px 0;
+}
+
+#gifts h4 {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--color-red);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#gifts h2 {
+    font-family: var(--font-title);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#gifts p {
+    font-family: var(--font-body);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#gifts .btn {
+    background-color: var(--color-green);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#gifts .btn:hover {
+    background-color: #008060;
+}
+
+
+#new-arrivals {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#new-arrivals h2 {
+    font-family: var(--font-title);
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#new-arrivals .card {
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#new-arrivals .card img {
+    border-radius: 5px;
+}
+
+#new-arrivals .card .card-text {
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: var(--font-body);
+    font-weight: 500;
+}
+
+#new-arrivals .card .text-muted {
+    font-size: 14px;
+    color: #777;
+}
+
+
+#cta {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+#cta h2 {
+    font-family: var(--font-title);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#cta p {
+    font-family: var(--font-body);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#cta .btn {
+    background-color: white;
+    color: var(--color-red);
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#cta .btn:hover {
+    background-color: #f2f2f2;
+}
+
+
+#instagram {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+#instagram h2 {
+    font-family: var(--font-title);
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#instagram i {
+    font-size: 40px;
+    color: var(--color-red);
+    margin-bottom: 10px;
+}
+
+#instagram h3 {
+    font-family: var(--font-body);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#instagram p {
+    font-size: 16px;
+    color: #666;
+}
+
+#instagram i{
+	color: var(--color-rojo);
+	font-size: 40px;
+}
+
+footer{
+	background-color: #000000;
+	padding: 30px 0;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+footer p span{
+	color: var(--color-rojo);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #000000;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
